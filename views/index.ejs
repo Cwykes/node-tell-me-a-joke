@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tell me a joke!</title>
+</head>
+
+    <body>
+        <h1>Want to hear a joke?</h1>
+        <div>
+            <p>
+                <%= joke.jokeText %>
+            </p>
+        </div>
+        <a id="new" href="/new">New</a>
+        <a href="/edit/<%= joke.id %>">Edit</a>
+        <a href="/delete/<%= joke.id %>">Delete</a>
+
+    </body>
+</html>
